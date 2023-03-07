@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    padding: 15px;
+    background-color: #f7f7f7 ;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+header figure{
+    text-align: left;
+}
+
+figure#logo {
+    width: 100%;
+}
+
+figure#logo img{
+    width: 50px;
+    text-align: left;
+}
+
+nav span#menu {
+    text-align: center;
+    text-align: right;
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+menu #itens {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+menu#itens ul li{
+    text-align: center;
+    padding: 5px;
+}
+menu#itens ul li a{
+    width: 100%;
+    margin: 0 auto;
+}
+
+a{
+    color: rgba(128, 128, 128, 0.767);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main section figure img {
+    width: 100%;
+}
+
+main section#section-main-first {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+main section#section-main-first section {
+    margin-top: 10px;
+}
+
+main section#section-main-first section h2{
+    font-size: 2.5em;
+    width: 100%;
+    color: rgb(41, 2, 112);
+}
+main section#section-main-first section div{
+    width: 100%;
+}
+
+main section#section-main-first section div p {
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+main section#section-main-first button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(250, 99, 28, 0.89);
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+main section#section-main-second {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    width: 320px;
+    height: 340px;
+    margin:20px auto;
+    background-color: rgb(43, 1, 82);
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+}
+
+main section#section-main-second h2{
+    color: rgb(251, 215, 7);
+}
+
+
+main section#section-main-second .div-section h3{
+    font-size: .8em;
+    margin-top: 8px;
+    padding-top: 15px;
+
+}
+
+main section#section-main-second .div-section p{
+    font-size: .6em;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer section.section-footer{
+    display: flex;
+    margin: auto;
+}
+
+footer section.section-footer{
+    padding-bottom: 15px;
+}
+
+footer section.section-footer div{
+    width: 268px;
+    padding-left: 10px;
+}
+
+footer section.section-footer div h3{
+    color: #808080;
+    font-size: 1.8em;
+}
+
+footer section.section-footer div p{
+    font-size: 1.2em;
+    color: #888585;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer section.section-footer div article{
+    font-size: 1.1em;
+    text-align: left;
+}
+
+footer section.section-footer img{
+    width: 120px;
+}

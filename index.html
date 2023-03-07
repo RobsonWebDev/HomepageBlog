@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Homepage</title>
+</head>
+<body>
+    <header>
+        <figure id="logo">
+            <a href="index.html"><img src="image/logo.png" alt="logo"></a>
+        </figure>
+        <nav>            
+            <span id="menu" class="material-icons" onclick="clickMenu()">menu</span>
+            <menu id="itens" style="display: none;">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#novo">Novo</a></li>
+                    <li><a href="#popular">Popular</a></li>
+                    <li><a href="#tendencia">Tendência</a></li>
+                    <li><a href="#categorias">Categorias</a></li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <section id="section-main-first">
+            <figure>
+                <img src="image/image-web-3-mobile.jpg" alt="WebImageMobile">
+            </figure>
+            <section>
+                <h2>O Futuro Brilhante <br> da Web 3.0</h2>
+                <div>
+                    <p>Mergulhamos na próxima evolução da web que afirma colocar o poder das plataformas de volta nas mãos das pessoas. Mas está realmente cumprindo sua promessa?</p>
+                    <button>Saiba Mais</button>
+                </div>
+            </section>
+        </section>
+        <section id="section-main-second">
+            <h2>Novo</h2>
+            <div class="div-section">
+                <h3>Hidrogênio vs Carros Elétricos</h3>
+                <p>Os carros movidos a Hidrogênio alcançarão os EVs?</p>
+            </div>
+            <div class="div-section">
+                <h3>As desvantagens de Toda a Arte</h3>
+                <p>Quais são os possíveis efeitos adversos da geração de imagens sob demanda?</p>
+            </div>
+            <div class="div-section">
+                <h3>Esta Financiando VC</h3>
+                <p>O Finnciamento privado por empresas de VCs caiu 50% ano a ano. Vamos dar uma olhada no que isso significa.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="section-footer">
+            <figure><img src="image/image-retro-pcs.jpg" alt="pc-retro"></figure>
+            <div>
+                <h3>01</h3>
+                <p>Revivendo PCs retrô</p>
+                <article>O Que acontece quando os Computadores antigos recebem atualizações modernas.</article>
+            </div>
+        </section>
+        <section class="section-footer">
+            <figure><img src="image/image-top-laptops.jpg" alt="teclado-note"></figure>
+            <div>
+                <h3>02</h3>
+                <p>Os 10 melhores Notebooks de 2022</p>
+                <article>Nossa melhor escolha para várias necessidades e orçamentos.</article>
+            </div>
+        </section>
+        <section class="section-footer">
+            <figure><img src="image/image-gaming-growth.jpg" alt="console-game"></figure>
+            <div>
+                <h3>03</h3>
+                <p>O Crescimento dos Jogos</p>
+                <article>Como a pandemia despertou novas Oportunidades.</article>
+            </div>
+        </section>
+    </footer>
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'flex'
+            }
+        }
+        
+        function clickMenu()  {
+            if (itens.style.display == 'flex') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'flex'
+            }
+        }
+
+    </script>
+</body>
+</html>
